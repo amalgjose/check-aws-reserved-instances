@@ -44,3 +44,7 @@ Example:
 For more help use:
 
     host# check-reserved-instances -h
+    
+## Known issues
+
+This code is currently not checking the operating system. So this will show incorrect reports if you have a combination of windows and linux servers.
